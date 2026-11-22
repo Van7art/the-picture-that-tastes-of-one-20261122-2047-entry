@@ -11,7 +11,7 @@ Entered in [The Picture That Tastes of One](https://make.fun/bounty/the-picture-
 ## Run it
 
 ```sh
-MAKEFUN_OUTPUT_DIR=/tmp/vA-out python3 main.py
+MAKEFUN_OUTPUT_DIR=/tmp/r2-out python3 main.py
 ```
 
 The program copies `entry.jpg` (the photograph beside `main.py`) to `$MAKEFUN_OUTPUT_DIR/entry.png`, creating the output directory if it does not exist. Python 3.13, standard library only, no network.
